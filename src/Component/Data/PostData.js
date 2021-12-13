@@ -10,6 +10,7 @@ import user1 from '../../Images/User/User-1.png'
 import user2 from '../../Images/User/user-2.png'
 import user3 from '../../Images/User/user-3.png'
 import user4 from '../../Images/User/user-4.png'
+import calender from '../../Images/Calender.png'
 const PostData = () => {
     return (
         <div className='container'>
@@ -65,7 +66,39 @@ const PostData = () => {
                             <div class="card-body">
                                 <img className='mb-3' src={Meetup} alt="" />
                                 <h5 class="card-title">Finance & Investment Elite Social Mixer @Lujiazui</h5>
-                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div className='my-3 ms-1'>
+                                    <img src={calender} alt="" /> <span>Fri ,12 Oct 2018</span>
+                                    <i class="fas fa-map-marker-alt ms-5"></i> <span >Ahmedabad, India</span>
+                                </div>
+                                <div>
+                                    <button className='btn border rounded w-100 text-danger mb-2'>Visit Website</button>
+                                </div>
+                                <div className='d-flex justify-content-between'>
+                                    <div>
+                                        <img src={user3} alt="" />  <span className='ms-1 fw-bolder'>Ronal jones</span>
+                                    </div>
+                                    <div>
+                                        <i class="far fa-eye"></i><span>1.4k views</span>
+                                        <button className='btn border ms-2'><i class="fas fa-share-alt"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* forth user */}
+                    <div class="col">
+                        <div class="card">
+                            <img src={post3} class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <img className='mb-3' src={Meetup} alt="" />
+                                <h5 class="card-title">Finance & Investment Elite Social Mixer @Lujiazui</h5>
+                                <div className='my-3 ms-1'>
+                                    <img src={calender} alt="" /> <span>Fri ,12 Oct 2018</span>
+                                    <i class="fas fa-map-marker-alt ms-5"></i> <span >Ahmedabad, India</span>
+                                </div>
+                                <div>
+                                    <button className='btn border rounded w-100 text-danger mb-2'>Visit Website</button>
+                                </div>
                                 <div className='d-flex justify-content-between'>
                                     <div>
                                         <img src={user3} alt="" />  <span className='ms-1 fw-bolder'>Ronal jones</span>
