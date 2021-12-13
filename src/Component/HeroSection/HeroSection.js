@@ -7,9 +7,13 @@ import back from '../../Images/HeroSec/Rectangle 3.png'
 const HeroSection = () => {
     return (
         <div >
-            <div className='position-relative'>
-                <img className='w-100 position-relative zIndex' src={img} alt="" />
-                <img className='w-100 position-absolute ' src={back} alt="" />
+            <div className='position-relative '>
+                <div className='position-absolute'>
+                    <img className='w-100 ' src={img} alt="" />
+                </div>
+                <div className='position-relative'>
+                    <img className='w-100 ' src={back} alt="" />
+                </div>
             </div>
             <div className='container'>
                 <div className='position-absolute top-50 ms-5 lh-base font-family'>
