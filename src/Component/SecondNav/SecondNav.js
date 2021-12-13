@@ -1,45 +1,29 @@
 import React from 'react';
 import { Button, Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
-
+import './SecondNav.css'
 const SecondNav = () => {
     return (
         <>
-            <Navbar bg="light" expand="lg">
+            <Navbar expand="lg">
                 <Container >
-                    <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
-                            className="me-auto my-2 my-lg-0"
-                            style={{ maxHeight: '100px' }}
+                            className="me-auto mt-3"
                             navbarScroll
                         >
-                            <Nav.Link href="#action1">Home</Nav.Link>
-                            <Nav.Link href="#action2">Link</Nav.Link>
-                            <NavDropdown title="Link" id="navbarScrollingDropdown">
-                                <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
-                                <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action5">
-                                    Something else here
-                                </NavDropdown.Item>
-                            </NavDropdown>
-                            <Nav.Link href="#" disabled>
-                                Link
-                            </Nav.Link>
+                            <Nav.Link href="#action1"><span>All Posts(32)</span><hr /></Nav.Link>
+                            <Nav.Link href="#action2">Article</Nav.Link>
+                            <Nav.Link href="#action3">Event</Nav.Link>
+                            <Nav.Link href="#action4">Education</Nav.Link>
+                            <Nav.Link href="#action5">Job</Nav.Link>
                         </Nav>
-                        <Form className="d-flex">
-                            <FormControl
-                                type="search"
-                                placeholder="Search"
-                                className="me-2"
-                                aria-label="Search"
-                            />
-                            <Button variant="outline-success">Search</Button>
-                        </Form>
+                        <button className='btn rounded color'>Write a post <i className="fas fa-caret-down"></i></button>
+                        <button className='btn rounded bg-primary text-light ms-3'><span className='text-light fw-bolder'>+</span><i className="fas fa-user-friends text-light fw-bolder"></i> Join Group</button>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+
         </>
     );
 };

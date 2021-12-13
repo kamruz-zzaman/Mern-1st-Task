@@ -6,15 +6,18 @@ import back from '../../Images/HeroSec/Rectangle 3.png'
 
 const HeroSection = () => {
     return (
-        <div className='position-relative'>
-            <div className=''>
-                <img width='100%' className='w-100 position-absolute' src={img} alt="" />
-                <img className='w-100 position-absolute' src={back} alt="" />
+        <div >
+            <div className='position-relative'>
+                <img className='w-100 position-relative zIndex' src={img} alt="" />
+                <img className='w-100 position-absolute ' src={back} alt="" />
             </div>
-            <div>
-                <p className='position-absolute heroTitle text-light'>Computer Engineering</p>
-                <p className='position-absolute heroSubTitle text-light'>142,765 Computer Engineers follow this.</p>
+            <div className='container'>
+                <div className='position-absolute top-50 ms-5 lh-base font-family'>
+                    <span className=' text-light fs-2 fw-bolder '>Computer Engineering</span><br />
+                    <span className=' text-light'>142,765 Computer Engineers follow this.</span>
+                </div>
             </div>
+            <div className='position-relative'></div>
         </div>
     );
 };

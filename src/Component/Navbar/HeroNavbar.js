@@ -31,7 +31,6 @@ const HeroNavbar = () => {
                     <img src={create} alt="" /> <img src={dropdown} alt="" />
                 </div>
             </div>
-            <SecondNav></SecondNav>
         </>
     );
 };
