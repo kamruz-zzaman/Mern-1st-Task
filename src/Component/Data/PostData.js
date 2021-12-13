@@ -26,6 +26,15 @@ const PostData = () => {
                                     <p>...</p>
                                 </div>
                                 <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                                <div className='d-flex justify-content-between'>
+                                    <div>
+                                        <img src={user1} alt="" />  <span className='ms-1 fw-bolder'>Sarthak Kamra</span>
+                                    </div>
+                                    <div>
+                                        <i class="far fa-eye"></i><span>1.4k views</span>
+                                        <button className='btn border ms-2'><i class="fas fa-share-alt"></i></button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -37,6 +46,15 @@ const PostData = () => {
                                 <img className='mb-3' src={Education} alt="" />
                                 <h5 class="card-title">Tax Benefits for Investment under National Pension Scheme launched by Government</h5>
                                 <p class="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+                                <div className='d-flex justify-content-between'>
+                                    <div>
+                                        <img src={user2} alt="" />  <span className='ms-1 fw-bolder'>Sarah West</span>
+                                    </div>
+                                    <div>
+                                        <i class="far fa-eye"></i><span>1.4k views</span>
+                                        <button className='btn border ms-2'><i class="fas fa-share-alt"></i></button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -48,10 +66,20 @@ const PostData = () => {
                                 <img className='mb-3' src={Meetup} alt="" />
                                 <h5 class="card-title">Finance & Investment Elite Social Mixer @Lujiazui</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div className='d-flex justify-content-between'>
+                                    <div>
+                                        <img src={user3} alt="" />  <span className='ms-1 fw-bolder'>Ronal jones</span>
+                                    </div>
+                                    <div>
+                                        <i class="far fa-eye"></i><span>1.4k views</span>
+                                        <button className='btn border ms-2'><i class="fas fa-share-alt"></i></button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                {/* second grid */}
                 <div className='col-lg-4'>
                     <div className='container ms-5 mt-5'>
                         <div className=' d-flex justify-content-between w-75'>
