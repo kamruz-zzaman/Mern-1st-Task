@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Form, FormControl, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import path1 from '../../Images/Logo/Path 963.png'
 import path2 from '../../Images/Logo/Path 964.png'
 import path3 from '../../Images/Logo/Path 965.png'
@@ -9,10 +9,6 @@ import path6 from '../../Images/Logo/Path 968.png'
 import path7 from '../../Images/Logo/Path 969.png'
 import path8 from '../../Images/Logo/Path 970.png'
 import path9 from '../../Images/Logo/Union 1.png'
-import create from '../../Images/Navbar option/Create account.png'
-import dropdown from '../../Images/Navbar option/Vector.png'
-import search from '../../Images/Search texxt/Vector (1).png'
-import SecondNav from '../SecondNav/SecondNav';
 import SignIn from '../Sign in/SignIn';
 import './HeroNav.css'
 

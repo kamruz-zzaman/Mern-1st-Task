@@ -4,8 +4,6 @@ import './HeroSection.css'
 import back from '../../Images/HeroSec/Rectangle 3.png'
 import mobileHero from '../../Images/HeroSec/mobile-head.png'
 import mobileHeroShadow from '../../Images/HeroSec/mobile-head-shadow.png'
-import SignIn from '../Sign in/SignIn';
-
 const HeroSection = () => {
     return (
         <div >
@@ -41,8 +39,6 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-            <SignIn></SignIn>
-
         </div>
     );
 };
