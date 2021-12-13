@@ -19,7 +19,7 @@ import './HeroNav.css'
 const HeroNavbar = () => {
     return (
         <>
-            <Navbar expand="lg" className='my-1'>
+            <Navbar expand="lg" className='my-1 d-none d-sm-block'>
                 <Container>
                     <Navbar.Brand href="#"><img src={path1} alt="" /><img src={path2} alt="" /><img src={path3} alt="" /><img className='mt-3' src={path4} alt="" /><img src={path5} alt="" /><img src={path9} alt="" /><img src={path6} alt="" /><img src={path7} alt="" /><img src={path8} alt="" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />

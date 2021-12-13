@@ -15,7 +15,7 @@ import job from '../../Images/job.png'
 import './postData.css'
 const PostData = () => {
     return (
-        <div className='container'>
+        <div className='container-lg'>
             <div className=' row '>
                 <div className=' col-lg-8 col-12'>
                     {/* first user */}
@@ -114,7 +114,7 @@ const PostData = () => {
                     </div>
                 </div>
                 {/* second grid */}
-                <div className='col-lg-4'>
+                <div className='d-none d-sm-block col-lg-4'>
                     <div className='container ms-5 mt-5'>
                         <div className=' d-flex justify-content-between w-75'>
                             <span><i className="fas fa-map-marker-alt"></i> Noida, India</span>
