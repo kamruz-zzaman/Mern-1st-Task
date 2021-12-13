@@ -12,6 +12,7 @@ import user3 from '../../Images/User/user-3.png'
 import user4 from '../../Images/User/user-4.png'
 import calender from '../../Images/Calender.png'
 import job from '../../Images/job.png'
+import './postData.css'
 const PostData = () => {
     return (
         <div className='container'>
@@ -25,7 +26,7 @@ const PostData = () => {
                                 <img className='mb-3' src={article} alt="" />
                                 <div className='d-flex justify-content-between'>
                                     <h5 className="card-title">What if famous brands had regular fonts? Meet RegulaBrands!</h5>
-                                    <p>...</p>
+                                    <p className='fs-4'>...</p>
                                 </div>
                                 <p className="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
                                 <div className='d-flex justify-content-between'>

@@ -29,9 +29,9 @@ const HeroNavbar = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll
                         >
-                            <div className='w-sm-0 w-md-0 w-lg-0'>
-                                <input className='customize ps-5 border' placeholder='Search for your favorite groups in ATG' type="text" />
-                                <div className='custom-margine mt-1'><i class="position-relative fas fa-search"></i> <br /></div>
+                            <div class="input-group input-group-lg rounded-pill">
+                                <span class="input-group-text bg-light border-end-0" id="inputGroup-sizing-lg"><i class="fas fa-search"></i></span>
+                                <input type="text" class="form-control" placeholder='Search for your favorite groups in ATG' aria-describedby="inputGroup-sizing-lg" />
                             </div>
                         </Nav>
                         <div className='mt-1'>
