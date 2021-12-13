@@ -13,6 +13,7 @@ import create from '../../Images/Navbar option/Create account.png'
 import dropdown from '../../Images/Navbar option/Vector.png'
 import search from '../../Images/Search texxt/Vector (1).png'
 import SecondNav from '../SecondNav/SecondNav';
+import SignIn from '../Sign in/SignIn';
 import './HeroNav.css'
 
 
@@ -35,7 +36,7 @@ const HeroNavbar = () => {
                             </div>
                         </Nav>
                         <div className='mt-1'>
-                            <p>Create Account. <span>It's Free! </span><i class="fas fa-caret-down"></i></p>
+                            <p>Create Account. <a href='#'><SignIn></SignIn></a> <i class="fas fa-caret-down"></i></p>
                         </div>
                     </Navbar.Collapse>
                 </Container>
