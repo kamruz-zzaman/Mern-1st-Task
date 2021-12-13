@@ -1,0 +1,40 @@
+.heroTitle{
+    left: 200px;
+    top: 286px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 47px;;
+}
+.heroSubTitle{
+    left: 200px;
+    top: 337px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width:992px){
+
+    .heroTitle{
+    left: 16px;
+    top: 120px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 30px;
+    }
+    .heroSubTitle{
+        height: 16px;
+        left: 16px;
+        top: 150px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+}
+
