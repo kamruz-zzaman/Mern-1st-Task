@@ -8,7 +8,7 @@ import PostData from './Component/Data/PostData';
 function App() {
   return (
     <div >
-      {/* <HeroNavbar></HeroNavbar> */}
+      <HeroNavbar></HeroNavbar>
       <HeroSection></HeroSection>
       <SecondNav></SecondNav>
       <PostData></PostData>
