@@ -1,3 +1,7 @@
 .font-family{
     font-family:'IBM Plex Sans';
 }
+.margin-rright{
+    margin-right: 300px;
+    font-size: 20px;
+}
