@@ -4,7 +4,7 @@ import '../../SecondNav/SecondNav.css'
 const LogSecondNav = () => {
     return (
         <>
-            <Navbar expand="lg">
+            <Navbar expand="lg" className='d-none d-sm-block'>
                 <Container >
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
@@ -23,7 +23,14 @@ const LogSecondNav = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-
+            <div className='container d-block d-sm-none d-flex justify-content-between my-3'>
+                <div>
+                    <h5>Posts(368)</h5>
+                </div>
+                <div>
+                    <button className='btn rounded color'>Filter: All <i className="fas fa-caret-down"></i></button>
+                </div>
+            </div>
         </>
     );
 };

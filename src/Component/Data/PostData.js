@@ -16,7 +16,7 @@ import './postData.css'
 import DropDown3Dot from '../Dropdown3Dot/DropDown3Dot';
 const PostData = () => {
     return (
-        <div className='container-lg'>
+        <div className='container'>
             <div className=' row '>
                 <div className=' col-lg-8 col-12'>
                     {/* first user */}
@@ -80,7 +80,7 @@ const PostData = () => {
                                     <i className="fas fa-map-marker-alt ms-5"></i> <span >Ahmedabad, India</span>
                                 </div>
                                 <div>
-                                    <button className='btn border rounded w-100 text-danger mb-2'>Visit Website</button>
+                                    <button className='btn border rounded w-100 text-danger fw-bold mb-2'>Visit Website</button>
                                 </div>
                                 <div className='d-flex justify-content-between'>
                                     <div>
@@ -108,7 +108,7 @@ const PostData = () => {
                                     <i className="fas fa-map-marker-alt ms-5"></i> <span >Ahmedabad, India</span>
                                 </div>
                                 <div>
-                                    <button className='btn border rounded w-100 text-success mb-2'>Apply on Timesjobs</button>
+                                    <button className='btn border rounded w-100 text-success fw-bold mb-2'>Apply on Timesjobs</button>
                                 </div>
                                 <div className='d-flex justify-content-between'>
                                     <div>
