@@ -32,6 +32,12 @@ const HeroSection = () => {
                         <img className='w-100' src={mobileHeroShadow} alt="" />
                     </div>
                 </div>
+                <div className='position-absolute  top-0 mt-3'>
+                    <div className=' d-flex justify-content-between ms-1'>
+                        <p className='margin-right'><i class="fas fa-arrow-left text-light fw-bold"></i></p>
+                        <button className='btn btn-transparent border ms-5 text-light'>Join Group</button>
+                    </div>
+                </div>
                 <div className=''>
                     <div className='position-absolute top-50 ms-2 lh-base font-family'>
                         <span className=' text-light fs-6 fw-bolder '>Computer Engineering</span><br />

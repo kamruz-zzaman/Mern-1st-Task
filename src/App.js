@@ -8,14 +8,23 @@ import LogHeroNav from './Component/Login User Component/logedInUserHeroNav/LogH
 import LogHeroSec from './Component/Login User Component/LogHeroSec/LogHeroSec';
 import LogPostData from './Component/Login User Component/LogPostData/LogPostData';
 import LogSecondNav from './Component/Login User Component/LogSecondNav/LogSecondNav';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div >
-      <HeroNavbar></HeroNavbar>
-      <HeroSection></HeroSection>
-      <SecondNav></SecondNav>
-      <PostData></PostData>
+      <BrowserRouter>
+        <Routes>
+          <Route
+            path="loginVersion"
+            element={<LogHeroNav />}
+          />
+          <Route
+            exact path="/"
+            element={<HeroNavbar />}
+          />
+        </Routes>
+      </BrowserRouter>
       {/* <LogHeroNav></LogHeroNav>
       <LogHeroSec></LogHeroSec>
       <LogSecondNav></LogSecondNav>

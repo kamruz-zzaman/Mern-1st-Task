@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import path1 from '../../Images/Logo/Path 963.png'
 import path2 from '../../Images/Logo/Path 964.png'
 import path3 from '../../Images/Logo/Path 965.png'
@@ -9,6 +10,9 @@ import path6 from '../../Images/Logo/Path 968.png'
 import path7 from '../../Images/Logo/Path 969.png'
 import path8 from '../../Images/Logo/Path 970.png'
 import path9 from '../../Images/Logo/Union 1.png'
+import PostData from '../Data/PostData';
+import HeroSection from '../HeroSection/HeroSection';
+import SecondNav from '../SecondNav/SecondNav';
 import SignIn from '../Sign in/SignIn';
 import './HeroNav.css'
 
@@ -37,6 +41,13 @@ const HeroNavbar = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+
+            <HeroSection></HeroSection>
+            <SecondNav></SecondNav>
+            <PostData></PostData>
+            <div className='d-flex justify-content-end mb-5 me-5 mt-5'>
+                <Link to='loginVersion' ><button className='btn btn-secondery btn-danger'>Login User</button></Link>
+            </div>
         </>
     );
 };

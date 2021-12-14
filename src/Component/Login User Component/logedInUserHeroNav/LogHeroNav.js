@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import path1 from '../../../Images/Logo/Path 963.png'
 import path2 from '../../../Images/Logo/Path 964.png'
 import path3 from '../../../Images/Logo/Path 965.png'
@@ -9,8 +10,10 @@ import path6 from '../../../Images/Logo/Path 968.png'
 import path7 from '../../../Images/Logo/Path 969.png'
 import path8 from '../../../Images/Logo/Path 970.png'
 import path9 from '../../../Images/Logo/Union 1.png'
-import SignIn from '../../Sign in/SignIn';
 import user from '../../../Images/User/User-1.png'
+import LogHeroSec from '../LogHeroSec/LogHeroSec';
+import LogPostData from '../LogPostData/LogPostData';
+import LogSecondNav from '../LogSecondNav/LogSecondNav';
 
 const LogHeroNav = () => {
     return (
@@ -36,6 +39,12 @@ const LogHeroNav = () => {
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+            <LogHeroSec></LogHeroSec>
+            <LogSecondNav></LogSecondNav>
+            <LogPostData></LogPostData>
+            <div className='d-flex justify-content-end mb-5 me-5 mt-5'>
+                <Link to='/' ><button className='btn btn-secondery btn-danger'>Without Login User</button></Link>
+            </div>
         </>
     );
 };
