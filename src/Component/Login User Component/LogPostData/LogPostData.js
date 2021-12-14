@@ -22,7 +22,7 @@ import Guser3 from '../../../Images/G-User/G-User-3.png'
 import Guser4 from '../../../Images/G-User/G-User-4.png'
 const LogPostData = () => {
     return (
-        <div className='container-lg'>
+        <div className='container-sm'>
             <div className=' row '>
                 <div className=' col-lg-8 col-12'>
                     {/* first user */}
@@ -139,7 +139,7 @@ const LogPostData = () => {
                         <div className=''>
                             <p><i className="fas fa-exclamation-circle"></i> Your location will help us serve better and extend a personalised experience.</p>
                         </div>
-                        <div>
+                        <div className='mt-5'>
                             <h4><img width='25px' className='mb-2' src={like} alt="" />Recommended Group </h4>
                             <div className='d-flex justify-content-between mt-5'>
                                 <div>
@@ -147,6 +147,30 @@ const LogPostData = () => {
                                 </div>
                                 <div>
                                     <button className='btn btn-dark rounded-pill py-1'>Followed</button>
+                                </div>
+                            </div>
+                            <div className='d-flex justify-content-between mt-4'>
+                                <div>
+                                    <img src={Guser2} alt="" /> <span className='fw-bolder'>Activism</span>
+                                </div>
+                                <div>
+                                    <button className='btn border btn-light rounded-pill py-1'>Follow</button>
+                                </div>
+                            </div>
+                            <div className='d-flex justify-content-between mt-4'>
+                                <div>
+                                    <img src={Guser3} alt="" /> <span className='fw-bolder'>Mba</span>
+                                </div>
+                                <div>
+                                    <button className='btn border btn-light rounded-pill py-1'>Follow</button>
+                                </div>
+                            </div>
+                            <div className='d-flex justify-content-between mt-4'>
+                                <div>
+                                    <img src={Guser4} alt="" /> <span className='fw-bolder'>Philosophy</span>
+                                </div>
+                                <div>
+                                    <button className='btn border btn-light rounded-pill py-1'>Follow</button>
                                 </div>
                             </div>
                         </div>
