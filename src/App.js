@@ -6,6 +6,7 @@ import SecondNav from './Component/SecondNav/SecondNav';
 import PostData from './Component/Data/PostData';
 import LogHeroNav from './Component/Login User Component/logedInUserHeroNav/LogHeroNav';
 import LogHeroSec from './Component/Login User Component/LogHeroSec/LogHeroSec';
+import LogPostData from './Component/Login User Component/LogPostData/LogPostData';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <PostData></PostData> */}
       <LogHeroNav></LogHeroNav>
       <LogHeroSec></LogHeroSec>
+      <LogPostData></LogPostData>
     </div>
   );
 }
