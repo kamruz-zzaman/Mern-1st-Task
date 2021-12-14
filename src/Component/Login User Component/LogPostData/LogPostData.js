@@ -12,9 +12,14 @@ import user3 from '../../../Images/User/user-3.png'
 import user4 from '../../../Images/User/user-4.png'
 import calender from '../../../Images/Calender.png'
 import job from '../../../Images/job.png'
+import like from '../../../Images/like.png'
 import '../../Data/postData.css'
 import DropDown3Dot from '../../Dropdown3Dot/DropDown3Dot';
 import './LogPostData.css'
+import Guser1 from '../../../Images/G-User/G-User1.png'
+import Guser2 from '../../../Images/G-User/G-User-2.png'
+import Guser3 from '../../../Images/G-User/G-User-3.png'
+import Guser4 from '../../../Images/G-User/G-User-4.png'
 const LogPostData = () => {
     return (
         <div className='container-lg'>
@@ -133,6 +138,17 @@ const LogPostData = () => {
                         <hr className='w-75 mt-1' />
                         <div className=''>
                             <p><i className="fas fa-exclamation-circle"></i> Your location will help us serve better and extend a personalised experience.</p>
+                        </div>
+                        <div>
+                            <h4><img width='25px' className='mb-2' src={like} alt="" />Recommended Group </h4>
+                            <div className='d-flex justify-content-between mt-5'>
+                                <div>
+                                    <img src={Guser1} alt="" /> <span className='fw-bolder'>Leisure</span>
+                                </div>
+                                <div>
+                                    <button className='btn btn-dark rounded-pill py-1'>Followed</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
