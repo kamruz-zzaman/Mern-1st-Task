@@ -12,14 +12,14 @@ import LogSecondNav from './Component/Login User Component/LogSecondNav/LogSecon
 function App() {
   return (
     <div >
-      {/* <HeroNavbar></HeroNavbar>
+      <HeroNavbar></HeroNavbar>
       <HeroSection></HeroSection>
       <SecondNav></SecondNav>
-      <PostData></PostData> */}
-      <LogHeroNav></LogHeroNav>
+      <PostData></PostData>
+      {/* <LogHeroNav></LogHeroNav>
       <LogHeroSec></LogHeroSec>
       <LogSecondNav></LogSecondNav>
-      <LogPostData></LogPostData>
+      <LogPostData></LogPostData> */}
     </div>
   );
 }

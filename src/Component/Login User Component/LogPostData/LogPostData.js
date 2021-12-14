@@ -86,7 +86,7 @@ const LogPostData = () => {
                                     <i className="fas fa-map-marker-alt ms-5"></i> <span >Ahmedabad, India</span>
                                 </div>
                                 <div>
-                                    <button className='btn border rounded w-100 text-danger mb-2'>Visit Website</button>
+                                    <button className='btn border fw-bold rounded w-100 text-danger mb-2'>Visit Website</button>
                                 </div>
                                 <div className='d-flex justify-content-between'>
                                     <div>
@@ -114,7 +114,7 @@ const LogPostData = () => {
                                     <i className="fas fa-map-marker-alt ms-5"></i> <span >Ahmedabad, India</span>
                                 </div>
                                 <div>
-                                    <button className='btn border rounded w-100 text-success mb-2'>Apply on Timesjobs</button>
+                                    <button className='btn border rounded fw-bold w-100 text-success mb-2'>Apply on Timesjobs</button>
                                 </div>
                                 <div className='d-flex justify-content-between'>
                                     <div>
@@ -133,7 +133,7 @@ const LogPostData = () => {
                 <div className='d-none d-sm-block col-lg-4'>
                     <div className='container ms-5 mt-5'>
                         <div className=' d-flex justify-content-between w-75'>
-                            <i class="fas fa-map-marker-alt"></i> <input className='border-0 input-border' placeholder='Enter your Location' type="text" /><i class="fas fa-times"></i>
+                            <i class="fas fa-map-marker-alt mt-1"></i> <input className='border-0 input-border' placeholder='Enter your Location' type="text" /><i class="fas fa-times mt-1"></i>
                         </div>
                         <hr className='w-75 mt-1' />
                         <div className=''>

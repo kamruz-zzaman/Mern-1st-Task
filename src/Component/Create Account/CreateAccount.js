@@ -1,16 +1,16 @@
 import React from 'react';
 import { Modal } from 'react-bootstrap';
 import login from '../../Images/login.png'
-import SignUp from '../SignUp/SignUp';
-import './signIn.css'
+import SignUp from '../../Component/SignUp/SignUp';
+import '../Sign in/signIn.css'
 
 
-const SignIn = () => {
+const CreateAccount = () => {
     const [modalShow, setModalShow] = React.useState(false);
     return (
         <>
             <a onClick={() => setModalShow(true)}>
-                It's Free!
+                Create new for free!
             </a>
 
             <MyVerticallyCenteredModal
@@ -21,7 +21,7 @@ const SignIn = () => {
     );
 };
 
-export default SignIn;
+export default CreateAccount;
 
 function MyVerticallyCenteredModal(props) {
     return (
@@ -48,7 +48,7 @@ function MyVerticallyCenteredModal(props) {
                         <button className='btn btn-primary d-none d-sm-block w-100 rounded-pill m-2'>Create Account</button>
                         <div className='d-block d-sm-none'>
                             <button className='btn btn-primary w-50 rounded-pill m-2'>Create Account</button>
-                            <a href='#' className='ms-5'><u>or,<SignUp></SignUp></u> </a>
+                            <span className='ms-5'><u>or, Sign In</u> </span>
                         </div>
                         <button className='btn border w-100 m-2'><i class="fab fa-facebook test-primary"></i>  SignUp With Facebook</button>
                         <button className='btn border w-100 m-2'><i class="fab fa-google"></i> SignUp With Google</button>
