@@ -13,6 +13,7 @@ import user4 from '../../Images/User/user-4.png'
 import calender from '../../Images/Calender.png'
 import job from '../../Images/job.png'
 import './postData.css'
+import DropDown3Dot from '../Dropdown3Dot/DropDown3Dot';
 const PostData = () => {
     return (
         <div className='container-lg'>
@@ -26,7 +27,7 @@ const PostData = () => {
                                 <img className='mb-3' src={article} alt="" />
                                 <div className='d-flex justify-content-between'>
                                     <h5 className="card-title">What if famous brands had regular fonts? Meet RegulaBrands!</h5>
-                                    <p className='fs-4'>...</p>
+                                    <DropDown3Dot></DropDown3Dot>
                                 </div>
                                 <p className="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
                                 <div className='d-flex justify-content-between'>
@@ -47,7 +48,10 @@ const PostData = () => {
                             <img src={post2} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <img className='mb-3' src={Education} alt="" />
-                                <h5 className="card-title">Tax Benefits for Investment under National Pension Scheme launched by Government</h5>
+                                <div className='d-flex justify-content-between'>
+                                    <h5 className="card-title">Tax Benefits for Investment under National Pension Scheme launched by Government</h5>
+                                    <DropDown3Dot></DropDown3Dot>
+                                </div>
                                 <p className="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
                                 <div className='d-flex justify-content-between'>
                                     <div>
@@ -67,7 +71,10 @@ const PostData = () => {
                             <img src={post3} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <img className='mb-3' src={Meetup} alt="" />
-                                <h5 className="card-title">Finance & Investment Elite Social Mixer @Lujiazui</h5>
+                                <div className='d-flex justify-content-between'>
+                                    <h5 className="card-title">Finance & Investment Elite Social Mixer @Lujiazui</h5>
+                                    <DropDown3Dot></DropDown3Dot>
+                                </div>
                                 <div className='my-3 ms-1'>
                                     <img src={calender} alt="" /> <span>Fri ,12 Oct 2018</span>
                                     <i className="fas fa-map-marker-alt ms-5"></i> <span >Ahmedabad, India</span>
@@ -92,7 +99,10 @@ const PostData = () => {
                         <div className="card">
                             <div className="card-body">
                                 <img className='mb-3' src={Job} alt="" />
-                                <h5 className="card-title">Software Developer</h5>
+                                <div className='d-flex justify-content-between'>
+                                    <h5 className="card-title">Software Developer</h5>
+                                    <DropDown3Dot></DropDown3Dot>
+                                </div>
                                 <div className='my-3 ms-1'>
                                     <img src={job} alt="" /> <span>Fri ,12 Oct 2018</span>
                                     <i className="fas fa-map-marker-alt ms-5"></i> <span >Ahmedabad, India</span>
