@@ -127,11 +127,10 @@ const PostData = () => {
                 <div className='d-none d-sm-block col-lg-4'>
                     <div className='container ms-5 mt-5'>
                         <div className=' d-flex justify-content-between w-75'>
-                            <span><i className="fas fa-map-marker-alt"></i> Noida, India</span>
-                            <i className="fas fa-pen"></i>
+                            <i className="fas fa-map-marker-alt mt-1"></i> <input className='border-0 input-border' placeholder='Noida, India' type="text" /><i className="fas fa-pen mt-1"></i>
                         </div>
                         <hr className='w-75 mt-1' />
-                        <div className=''>
+                        <div className='w-75'>
                             <p><i className="fas fa-exclamation-circle"></i> Your location will help us serve better and extend a personalised experience.</p>
                         </div>
                     </div>

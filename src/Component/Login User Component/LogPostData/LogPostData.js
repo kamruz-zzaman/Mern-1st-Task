@@ -136,7 +136,7 @@ const LogPostData = () => {
                             <i class="fas fa-map-marker-alt mt-1"></i> <input className='border-0 input-border' placeholder='Enter your Location' type="text" /><i class="fas fa-times mt-1"></i>
                         </div>
                         <hr className='w-75 mt-1' />
-                        <div className=''>
+                        <div className='w-75'>
                             <p><i className="fas fa-exclamation-circle"></i> Your location will help us serve better and extend a personalised experience.</p>
                         </div>
                         <div className='mt-5'>
