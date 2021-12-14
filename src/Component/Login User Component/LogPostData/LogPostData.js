@@ -14,6 +14,7 @@ import calender from '../../../Images/Calender.png'
 import job from '../../../Images/job.png'
 import '../../Data/postData.css'
 import DropDown3Dot from '../../Dropdown3Dot/DropDown3Dot';
+import './LogPostData.css'
 const LogPostData = () => {
     return (
         <div className='container-lg'>
@@ -127,8 +128,7 @@ const LogPostData = () => {
                 <div className='d-none d-sm-block col-lg-4'>
                     <div className='container ms-5 mt-5'>
                         <div className=' d-flex justify-content-between w-75'>
-                            <span><i className="fas fa-map-marker-alt"></i> Noida, India</span>
-                            <i className="fas fa-pen"></i>
+                            <i class="fas fa-map-marker-alt"></i> <input className='border-0 input-border' placeholder='Enter your Location' type="text" /><i class="fas fa-times"></i>
                         </div>
                         <hr className='w-75 mt-1' />
                         <div className=''>
