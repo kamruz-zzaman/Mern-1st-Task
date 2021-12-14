@@ -48,7 +48,7 @@ function MyVerticallyCenteredModal(props) {
                         <button className='btn btn-primary d-none d-sm-block w-100 rounded-pill m-2'>Create Account</button>
                         <div className='d-block d-sm-none'>
                             <button className='btn btn-primary w-50 rounded-pill m-2'>Create Account</button>
-                            <span className='ms-5'><u>or, Sign In</u> </span>
+                            <a href='#' className='ms-5'><u>or,<SignUp></SignUp></u> </a>
                         </div>
                         <button className='btn border w-100 m-2'><i class="fab fa-facebook test-primary"></i>  SignUp With Facebook</button>
                         <button className='btn border w-100 m-2'><i class="fab fa-google"></i> SignUp With Google</button>
