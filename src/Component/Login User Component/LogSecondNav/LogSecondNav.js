@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar, } from 'react-bootstrap';
-import './SecondNav.css'
-const SecondNav = () => {
+import '../../SecondNav/SecondNav.css'
+const LogSecondNav = () => {
     return (
         <>
             <Navbar expand="lg">
@@ -19,7 +19,7 @@ const SecondNav = () => {
                             <Nav.Link href="#action5">Job</Nav.Link>
                         </Nav>
                         <button className='btn rounded color'>Write a post <i className="fas fa-caret-down"></i></button>
-                        <button className='btn rounded bg-primary text-light ms-3'><span className='text-light fw-bolder'>+</span><i className="fas fa-user-friends text-light fw-bolder"></i> Join Group</button>
+                        <button className='btn rounded border border-secondary ms-3'><i class="text-dark fas fa-sign-out-alt"></i> Leave Group</button>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
@@ -28,4 +28,4 @@ const SecondNav = () => {
     );
 };
 
-export default SecondNav;
+export default LogSecondNav;
