@@ -33,7 +33,7 @@ const HeroSection = () => {
                     </div>
                 </div>
                 <div className='position-absolute  top-0 mt-3'>
-                    <div className=' d-flex justify-content-between ms-1'>
+                    <div className=' d-flex justify-content-between ms-2'>
                         <p className='margin-rright'><i class="fas fa-arrow-left text-light fw-bold"></i></p>
                         <button className='btn btn-transparent border ms-5 text-light'>Join Group</button>
                     </div>
